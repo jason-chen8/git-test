@@ -6,7 +6,12 @@ import pytz
 import random
 
 
-
+def subtraction(a,b):
+    '''Sum two numbers a and b togerther'''
+    try:
+        return int(a)+int(b)
+    except Exception as e:
+        raise ValueError("Not a string")    
 
 
 def addition(a,b):

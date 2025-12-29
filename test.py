@@ -19,3 +19,6 @@ def addition(a,b):
 
 
 print(addition(random.randint(0,100), random.randint(0, 100)))
+
+if __name__ == 'Main':
+    print('Hello World')

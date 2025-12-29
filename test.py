@@ -3,7 +3,7 @@ import json
 from datetime import datetime, timedelta
 from pytz import timezone
 import pytz
-
+import random
 
 
 
@@ -16,6 +16,6 @@ def addition(a,b):
     except Exception as e:
         raise ValueError("Not a string")
 
-import random
 
-print(addition(random.randint(0,110), random.randint(0, 100)))
+
+print(addition(random.randint(0,100), random.randint(0, 100)))

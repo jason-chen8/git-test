@@ -7,15 +7,15 @@ import random
 
 
 def subtraction(a,b):
-    '''Sum two numbers a and b togerther'''
+    '''Subtract two numbers a and b together'''
     try:
-        return int(a)+int(b)
+        return int(a)-int(b)
     except Exception as e:
         raise ValueError("Not a string")    
 
 
 def addition(a,b):
-    '''Sum two numbers a and b togerther'''
+    '''Sum two numbers a and b together'''
     try:
         return int(a)+int(b)
     except Exception as e:

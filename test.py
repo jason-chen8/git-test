@@ -18,4 +18,4 @@ def addition(a,b):
 
 import random
 
-print(addition(random.randint(0,100), random.randint(0, 100)))
+print(addition(random.randint(0,110), random.randint(0, 100)))

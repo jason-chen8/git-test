@@ -10,8 +10,11 @@ from datetime import timedelta
 
 
 def addition(a,b):
-    return a+b
-
+    '''Sum two numbers a and b togerther'''
+    try:
+        return int(a)+int(b)
+    except Exception as e:
+        raise ValueError("Not a string")
 
 import random
 

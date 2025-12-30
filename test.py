@@ -21,6 +21,19 @@ def addition(a,b):
     except Exception as e:
         raise ValueError("Not a string")
 
+def multiplication(a,b):
+    '''Multiply two numbers a and b together'''
+    try:
+        return int(a)*int(b)
+    except Exception as e:
+        raise ValueError("Not a string")
+
+def division(a,b):
+    '''Divide two numbers a and b together'''
+    try:
+        return int(a)/int(b)
+    except Exception as e:
+        raise ValueError("Not a string")
 
 
 print(addition(random.randint(0,100), random.randint(0, 100)))

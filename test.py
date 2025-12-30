@@ -38,5 +38,7 @@ def division(a,b):
 
 print(addition(random.randint(0,100), random.randint(0, 100)))
 print(subtraction(1,2))
+print(multiplication(1,2))
+print(division(1,2))
 if __name__ == 'Main':
     print('Hello World')

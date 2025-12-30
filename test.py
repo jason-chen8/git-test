@@ -4,7 +4,7 @@ from datetime import datetime, timedelta
 from pytz import timezone
 import pytz
 import random
-
+#This is the new feature subtraction
 
 def subtraction(a,b):
     '''Subtract two numbers a and b together'''
@@ -24,6 +24,6 @@ def addition(a,b):
 
 
 print(addition(random.randint(0,100), random.randint(0, 100)))
-
+print(subtraction(1,2))
 if __name__ == 'Main':
     print('Hello World')

@@ -35,10 +35,11 @@ def division(a,b):
     except Exception as e:
         raise ValueError("Not a string")
 
+def main():
+    print(addition(random.randint(0,100), random.randint(0, 100)))
+    print(subtraction(1,2))
+    print(multiplication(1,2))
+    print(division(1,2))
 
-print(addition(random.randint(0,100), random.randint(0, 100)))
-print(subtraction(1,2))
-print(multiplication(1,2))
-print(division(1,2))
-if __name__ == 'Main':
-    print('Hello World')
+if __name__ == 'main':
+   main()
